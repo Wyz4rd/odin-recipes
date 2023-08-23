@@ -4,13 +4,37 @@
         <meta charset="utf-8">
         <meta name="viewport">
         <title>Odin Recipes</title>
+        <link rel="stylesheet" href="/styles.css">
     </head>
     <body>
-        <h1>Odin Recipes</h1>
-    <ul>
-        <a href="recipes/lasagne.html">Lasagne</a>
-        <a href="recipes/mac-n-cheese.html">Mac n Cheese</a>
-        <a href="recipes/spaghetti.html">Spaghetti</a> 
-    </ul>
+        <!-- Make the header stand out more -->
+        <header>
+        <div class="container one">
+            <h1 class="title">Odin Recipes
+                <img id="odin-image" src="/images/Odin.svg">
+            </h1>    
+        </div>
+        </header>
+        <div>
+            <!-- Make the images and links clickable -->
+            <ul class="container two">
+                <div class="space">
+                    <li>
+                        <img class="food-img" src="/images/lasagne.webp"><br><a class="recipe" href="recipes/lasagne.html">Lasagne</a>
+                    </li> 
+                </div>
+                <div class="space">
+                    <li>
+                        <img class="food-img" src="/images/Slow-Cooker-Mac-n-Cheese.webp"><br><a class="recipe" href="recipes/mac-n-cheese.html">Mac n Cheese</a>
+                    </li> 
+                </div>
+                <div class="space">
+                    <li>
+                        <img class="food-img" src="/images/spaghetti-alla-nerano.webp"><br><a class="recipe" href="recipes/spaghetti.html">Spaghetti</a>
+                    </li> 
+                </div>
+             </ul>
+        </div>
+        <!-- Give a footer -->
     </body>
 </html>
