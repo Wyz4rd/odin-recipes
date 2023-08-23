@@ -43,7 +43,7 @@ body {
 
 .container.two {
     padding: 50px;
-    height: auto;
+    height: 100%;
     margin-top: 20px;
     margin-bottom: 20px;
     width: 100%;
@@ -56,7 +56,7 @@ body {
     border: 2px solid #f71c1c9a;
     padding: 15px;
     width: 100%;
-    height: auto;
+    height: 100%;
     border-radius: 10px;
 }
 
@@ -83,6 +83,7 @@ body {
 .food-img {
     width: 100px;
     border-radius: 50px;
+    height: auto;
 }
 
 .divider {
